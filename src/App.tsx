@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import MockInfo from './MockInfo';
 
 function App() {
   return (
-    <div className="App">
-      <h1>test</h1>
-      <h3 className="mt-5">ddd</h3>
-    </div>
+    <Routes>
+      <Route path="/" element={<MockInfo />} />
+      <Route path="test" element={<Home />} />
+    </Routes>
   );
 }
 
