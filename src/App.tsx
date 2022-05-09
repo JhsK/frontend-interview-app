@@ -1,14 +1,16 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import MockInfo from './MockInfo';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import MockInfo from './pages/MockInfo';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<MockInfo />} />
-      <Route path="test" element={<Home />} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/mockinfo" element={<MockInfo />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Layout from './components/Layout';
+import Layout from '../components/Layout';
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
         </div>
         <span className="text-4xl font-bold mb-8">프터뷰</span>
         <button className="text-lg w-32 cursor-pointer rounded bg-gray-200 py-2 px-4 mb-4">
-          <Link to="/test">모의면접</Link>
+          <Link to="/mockinfo">모의면접</Link>
         </button>
         <button className="text-lg w-32 cursor-pointer rounded bg-gray-200 py-2 px-4">주제별</button>
       </div>
