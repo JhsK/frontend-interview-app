@@ -12,9 +12,9 @@ function Home() {
           <span>면접 질문에 답을 해보자</span>
         </div>
         <span className="text-4xl font-bold mb-8">프터뷰</span>
-        <button className="text-lg w-32 cursor-pointer rounded bg-gray-200 py-2 px-4 mb-4">
-          <Link to="/mockinfo">모의면접</Link>
-        </button>
+        <Link to="/mockinfo">
+          <button className="text-lg w-32 cursor-pointer rounded bg-gray-200 py-2 px-4 mb-4">모의면접</button>
+        </Link>
         <button className="text-lg w-32 cursor-pointer rounded bg-gray-200 py-2 px-4">주제별</button>
       </div>
       <span className="absolute bottom-4 text-center opacity-20">버그 신고 및 문의 - qwe6293@nate.com</span>
