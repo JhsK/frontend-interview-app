@@ -5,4 +5,5 @@
 body {
     font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', NanumSquare, notokr, 'Nanum Gothic', 'Malgun Gothic',
       sans-serif;
+    box-sizing: border-box;
   }
